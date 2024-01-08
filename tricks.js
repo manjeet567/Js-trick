@@ -47,3 +47,17 @@ function removeWordFromSentence(sentence,word){
     return sentence.replace(regex,'')    //output---'hello , this is a test'
 }
 console.log(removeWordFromSentence(sentence,remove)) //output---'hello , this is a test'
+
+
+
+
+
+
+const person1={
+    "name":"manjeet",
+    "mobile":9783266449,
+    "age":undefined
+}
+
+let age=person1.age
+console.log(age)

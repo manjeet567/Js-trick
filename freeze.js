@@ -28,7 +28,7 @@ console.log(person3) // output=={ name: 'kaushal', mobile: 9783266448 }
 console.log(person1) // output=={ name: 'manjeet choudhary', mobile: 9783266449 }
 
 
-//-----------------------imutable only one property of this object----------------------------//
+//-----------------------immutable only one property of this object----------------------------//
 
 let propertDefine={
    value:person4.name,

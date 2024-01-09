@@ -61,3 +61,15 @@ const person1={
 
 let age=person1.age
 console.log(age)
+
+
+
+let obj={
+    name:"manjeet",
+    print:function(){
+        setTimeout(() => {
+            console.log('print',this.name)
+        }, 0);
+    }
+}
+obj.print()

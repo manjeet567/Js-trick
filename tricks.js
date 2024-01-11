@@ -73,3 +73,12 @@ let obj={
     }
 }
 obj.print()
+
+
+let numarr=[1,2,3,4]
+let total=1;
+for(let num in numarr){
+   // total *=num  //output---0  
+   total *=numarr[num] //output---24
+}
+console.log('total',total)

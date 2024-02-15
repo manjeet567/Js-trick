@@ -12,3 +12,6 @@ const copyToClipboard=(text)=>{
 
 const isEven=num=>num%2 ==0;
 console.log(isEven(2))
+
+// const screenwidth=screen.availHeight;
+// console.log(screenwidth)

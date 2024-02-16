@@ -36,3 +36,19 @@ for(let i=0;i<3;i++){
 a[0]() //output--0
 a[1]() //output--1
 a[2]() //output--2
+
+
+function fetchData(url,callback){
+
+    setTimeout(() => {
+        let data="data form url"+url
+        callback(data)
+    }, 2000);
+    
+    }
+    
+    function processingData(data){
+        console.log("processing data:",data)
+    }
+    
+    fetchData('http://futureclubs.in',processingData)
